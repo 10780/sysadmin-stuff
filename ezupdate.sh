@@ -1,6 +1,6 @@
 #!/bin/bash
-printf "Updating...\n"
+printf "It's update time!"
 apt-get update && apt-get upgrade
 
-printf "Update complete\n"
+printf "\nUpdate complete\n"
 date '+%a %d %B %T %s'
