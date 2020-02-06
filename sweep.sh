@@ -6,4 +6,4 @@ apt clean
 printf "\nCleaning done\n"
 date + '%t %s'
 
-#This is meant to be another cron job but can be run manually too
+#This is meant to be another cron job but can be run manually too (I always did it manually)
