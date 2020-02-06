@@ -1,6 +1,7 @@
 #!/bin/bash
 #This is like ezupdate.sh file, only meant to be run specifically as cron job instead
 printf "Beginning automatic update\n"
+date '+%a %d %B &T &s'
 printf "Updating...\n"
 apt-get update && apt-get dist-upgrade -y
 apt autoremove
